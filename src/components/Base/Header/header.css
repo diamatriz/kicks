@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__container {
+    max-width: 1880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+
+}
+.menu {
+    display: flex;
+}
+.menu__link {
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+}
+.header__actions {
+    display: flex;
+    align-items: center;
+}
+.header__phone {
+
+}
+.header__search {
+    min-width: 30px;
+    min-height: 30px;
+    mask-image: var(--icon-search);
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background-color: #000;
+}

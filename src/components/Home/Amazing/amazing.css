@@ -1,0 +1,19 @@
+.amazing {
+    padding-block: 140px;
+}
+
+.amazing__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.title {
+}
+.amazing__text {
+    max-width: 330px;
+}
+
+.amazing__images {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,32 @@
+---
+import Logo from "../Logo/Logo.astro";
+
+import './header.css';
+---
+
+<header class="header">
+    <div class="container header__container">
+        <ul class="menu">
+            <li>
+                <a class="menu__link" href="/">home</a>
+            </li>
+            <li>
+                <a class="menu__link" href="/">pages</a>
+            </li>
+            <li>
+                <a class="menu__link" href="/">blog</a>
+            </li>
+            <li>
+                <a class="menu__link" href="/">about us</a>
+            </li>
+            <li>
+                <a class="menu__link" href="/">contact us</a>
+            </li>
+        </ul>
+        <Logo width="120" height="54"/>
+        <div class="header__actions">
+            <a class="header__phone" href="tel:+1534897821">+(1) 534-897-821</a>
+            <button class="header__search" type="button" title="Open Search Bar"></button>
+        </div>
+    </div>
+</header>

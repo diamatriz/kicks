@@ -1,0 +1,72 @@
+.scooter {
+    padding-block: 140px;
+    margin-bottom: 370px;
+}
+
+.scooter-grid {
+    padding-inline: 60px;
+    display: flex;
+}
+.sidebar {
+    display: grid;
+    align-items: center;
+    gap: 70px;
+}
+.scooter-card {
+    display: grid;
+}
+
+.scooter-card .text-content {
+    max-width: 200px;
+}
+
+.scooter-card img {
+    order: -1;
+    margin-inline: auto;
+}
+
+.scooter-card__title {
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.scooter-wrapper {
+    position: relative;
+    padding-inline: 60px;
+}
+.tooltip {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-family: var(--ff-dm-sans);
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    background-color: #4A6F5D;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+.tooltip-handle {
+    top: 25px;
+    left: 270px;
+}
+
+.tooltip-back-tire {
+    bottom: 120px;
+    right: 100px;
+}
+
+.tooltip-deck {
+    bottom: 75px;
+    left: 400px;
+}
+
+.tooltip-front-tire {
+    bottom: 35px;
+    left: 70px;
+}
