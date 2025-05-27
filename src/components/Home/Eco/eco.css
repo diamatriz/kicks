@@ -1,0 +1,54 @@
+.eco {
+    padding-block: 140px;
+}
+
+.eco__inner {
+    display: flex;
+    align-items: center;
+    gap: 156px;
+}
+
+.eco__content {
+    max-width: 520px;
+}
+
+.eco__title {
+    margin-bottom: 30px;
+}
+
+.eco__text {
+   margin-bottom: 40px; 
+}
+
+.eco__text p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.eco__link {
+    font-size: 18px;
+    line-height: 1;
+    padding-bottom: 3px;
+    border-bottom: 2px var(--c-black);
+}
+
+.eco__image-wrap {
+    position: relative;
+}
+
+.eco-box {
+    width: fit-content;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: var(--c-black);
+    padding: 40px 60px;
+    color: #fff;
+
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.eco-box span {
+    font-size: 70px;
+    font-weight: 700;
+}

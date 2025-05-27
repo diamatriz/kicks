@@ -1,0 +1,38 @@
+.testimonials {
+    padding: 105px 10px;
+    background-color: var(--c-black);
+    color: #fff;
+}
+
+
+.testimonials .swiper-slide {
+    box-sizing: border-box !important;
+}
+
+.testimonial-card {
+    position: relative;
+    padding-left: 140px;
+    max-width: 590px;
+}
+
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url('/images/quote.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.testimonial-card__text {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.testimonial-card__name {
+    font-family: var(--ff-dm-sans);
+}

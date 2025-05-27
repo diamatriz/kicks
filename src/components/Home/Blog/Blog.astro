@@ -1,0 +1,109 @@
+---
+import './blog.css';
+---
+
+<section class="blog">
+    <div class="container blog__inner">
+        <h2 class="title blog__title">Our blog</h2>
+        <div class="text-content blog__text">
+            <p>Aliquam molestie pharetra ex, maximus lobortis
+Aenean at Proin rutrum ligula aliquam</p>
+        </div>
+        <div class="swiper">
+        <ul class="blog-list swiper-wrapper">
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Guide to EV Charging Points M…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean luctus posuere magna non feugiat.
+                        Praesent...</p>
+                    </div>
+                    <img src="/images/blog-img-1.webp" alt="blog scooter" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Home Charging Station for a E…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Duis ut nisl id nulla semper laoreet at sed...</p>
+                    </div>
+                    <img src="/images/blog-img-2.webp" alt="scooter rider" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Charging Solution for Electri…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Sed sed elementum nisl. Suspendisse et ultricies...</p>
+                    </div>
+                    <img src="/images/blog-img-3.webp" alt="blog scooter close" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Guide to EV Charging Points M…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean luctus posuere magna non feugiat.
+                        Praesent...</p>
+                    </div>
+                    <img src="/images/blog-img-1.webp" alt="blog scooter" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Charging Solution for Electri…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Sed sed elementum nisl. Suspendisse et ultricies...</p>
+                    </div>
+                    <img src="/images/blog-img-3.webp" alt="blog scooter close" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Guide to EV Charging Points M…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean luctus posuere magna non feugiat.
+                        Praesent...</p>
+                    </div>
+                    <img src="/images/blog-img-1.webp" alt="blog scooter" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+            <li class="swiper-slide">
+                <article class="blog-card">
+                    <time datetime="23/07/24" class="blog-card__date">23 Jul, 2024</time>
+                    <h3 class="blog-card__title">Charging Solution for Electri…</h3>
+                    <div class="blog-card__text text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Sed sed elementum nisl. Suspendisse et ultricies...</p>
+                    </div>
+                    <img src="/images/blog-img-3.webp" alt="blog scooter close" class="blog-card__image" width="412" height="320" loading="lazy">
+                </article>
+            </li>
+        </ul>
+        </div>
+    </div>
+</section>
+
+<script>
+
+import Swiper from 'swiper';
+import 'swiper/css';
+
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 3,
+  loop: true,
+  spaceBetween: 30
+});
+</script>

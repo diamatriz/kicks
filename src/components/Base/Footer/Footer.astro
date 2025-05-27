@@ -1,12 +1,14 @@
 ---
 import Logo from "../Logo/Logo.astro";
 
-
+import './footer.css';
 ---
 
 <footer class="footer">
-    <div class="container">
-        <Logo width="175" height="78"/>
+    <div class="container footer__inner">
+        <a class="logo" href="/">
+        <img class="logo__img" src="./images/logo-footer.svg" alt="logo" width="175" height="58">
+        </a>
         <ul class="footer-menu">
             <li>
                 <a href="" class="footer-menu__link">About us</a>

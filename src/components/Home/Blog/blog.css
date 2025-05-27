@@ -1,0 +1,38 @@
+.blog {
+    padding-block: 140px;
+}
+
+.blog__title {
+    margin-bottom: 10px;
+}
+
+.blog__text {
+    margin-bottom: 50px;
+    max-width: 350px;
+}
+
+
+.blog-card {
+    display: grid;
+    gap: 20px;
+}
+
+.blog-card__date {
+    font-family: var(--ff-dm-sans);
+}
+
+.blog-card__title {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.blog-card__text {
+}
+
+.blog-card__image {
+    order: -1;
+}
+
+.blog .swiper-slide {
+    box-sizing: border-box !important;
+}

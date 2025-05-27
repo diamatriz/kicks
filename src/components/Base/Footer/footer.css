@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--c-black);
+    color: #fff;
+    font-family: var(--ff-dm-sans);
+    font-size: 16px;
+    line-height: 2;
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
