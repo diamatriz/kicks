@@ -4,6 +4,7 @@
     left: 0;
     right: 0;
     z-index: 100;
+    background-color: #fff;
 }
 
 .header__container {
@@ -20,6 +21,12 @@
     padding: 25px;
     text-transform: uppercase;
 }
+
+.menu__link:hover {
+    background-color: var(--c-black);
+    color: #fff;
+}
+
 .header__actions {
     display: flex;
     align-items: center;
